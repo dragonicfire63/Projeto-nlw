@@ -32,7 +32,7 @@ export const feedbackTypes = {
             alt: 'Imagem de um balão de pensamento'
         },
     },
-}
+};
 
 export type FeedbackType = keyof typeof feedbackTypes;
 

@@ -28,17 +28,13 @@ export function FeedBackContentStep({
         
         setSendingFeedback(true);
 
-        // console.log({
-        //     screenshot,
-        //     comment
-        // })
-
         await api.post('/feedbacks', {
             type: feedbackType,
             comment,
             screenshot,
-        })
+        });
 
+        setSendingFeedback(false);
         onFeedbackSent();
     }
 
