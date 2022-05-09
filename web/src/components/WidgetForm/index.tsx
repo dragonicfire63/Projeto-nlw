@@ -67,5 +67,5 @@ export function WidgetForm() {
                 Feito com 💜 pelo <a className="underline underline-offset-2" href="https://ceappedreira.org.br/">Ceap</a>
             </footer>
         </div>
-    )
+    );
 }
