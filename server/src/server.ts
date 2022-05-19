@@ -5,7 +5,7 @@
 // DELETE - Deletar uma informação
 
 import express from 'express'
-import { routes } from './routes';
+import { routes } from './routes'
 import cors from 'cors'
 
 const app = express();
